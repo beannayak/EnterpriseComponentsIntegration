@@ -13,6 +13,8 @@
   **Download**: https://docs.confluent.io/platform/current/installation/installing_cp/zip-tar.html  
   **Start by using command**:  
          confluent_home$ export CONFLUENT_HOME=/home/<user_path>/confluent; export JAVA_HOME=/usr/lib/jvm/java-8-openjdk; ./bin/confluent local services start  
+  **Add schema:**  
+    By default control panel runs in 9021 port. Create a topic named "mytopic" and register Avro schema from the project's resouce folder.
          
 ### Add generated source path as source:
       Source Paths:
