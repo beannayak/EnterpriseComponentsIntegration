@@ -1,7 +1,7 @@
-package com.rasal.workflow.controller;
+package com.rasal.controller;
 
-import com.rasal.workflow.model.Order;
-import com.rasal.workflow.service.OrderService;
+import com.rasal.model.Order;
+import com.rasal.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;

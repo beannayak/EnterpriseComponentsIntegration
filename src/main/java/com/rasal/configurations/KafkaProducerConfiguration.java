@@ -1,4 +1,4 @@
-package com.rasal.workflow.configurations;
+package com.rasal.configurations;
 
 import io.confluent.kafka.serializers.KafkaAvroSerializer;
 import org.apache.avro.generic.GenericRecord;

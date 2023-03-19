@@ -1,4 +1,4 @@
-package com.rasal.workflow.configurations;
+package com.rasal.configurations;
 
 import org.camunda.bpm.engine.HistoryService;
 import org.camunda.bpm.engine.ManagementService;

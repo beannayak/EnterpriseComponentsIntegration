@@ -1,4 +1,4 @@
-package com.rasal.workflow.camunda;
+package com.rasal.camunda;
 
 public class Context {
 

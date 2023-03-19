@@ -1,8 +1,8 @@
-package com.rasal.workflow;
+package com.rasal;
 
-import com.rasal.workflow.grpc.GreetingServiceGrpc;
-import com.rasal.workflow.grpc.OrderRequest;
-import com.rasal.workflow.grpc.OrderResponse;
+import com.rasal.grpc.GreetingServiceGrpc;
+import com.rasal.grpc.OrderRequest;
+import com.rasal.grpc.OrderResponse;
 import io.grpc.ManagedChannel;
 import io.grpc.netty.shaded.io.grpc.netty.GrpcSslContexts;
 import io.grpc.netty.shaded.io.grpc.netty.NegotiationType;

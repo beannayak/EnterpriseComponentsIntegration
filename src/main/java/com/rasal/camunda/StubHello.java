@@ -1,4 +1,4 @@
-package com.rasal.workflow.camunda;
+package com.rasal.camunda;
 
 import lombok.extern.slf4j.Slf4j;
 import org.camunda.bpm.engine.delegate.BpmnError;

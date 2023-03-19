@@ -1,4 +1,4 @@
-package com.rasal.workflow;
+package com.rasal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

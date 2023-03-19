@@ -1,6 +1,6 @@
-package com.rasal.workflow.controller;
+package com.rasal.controller;
 
-import com.rasal.workflow.camunda.Context;
+import com.rasal.camunda.Context;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.tuple.Pair;
 import org.camunda.bpm.engine.HistoryService;

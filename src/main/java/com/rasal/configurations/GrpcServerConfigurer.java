@@ -1,4 +1,4 @@
-package com.rasal.workflow.configurations;
+package com.rasal.configurations;
 
 import io.grpc.netty.shaded.io.grpc.netty.GrpcSslContexts;
 import io.grpc.netty.shaded.io.grpc.netty.NettyServerBuilder;

@@ -1,6 +1,6 @@
-package com.rasal.workflow.controller;
+package com.rasal.controller;
 
-import com.rasal.workflow.service.ProducerService;
+import com.rasal.service.ProducerService;
 import com.rasal.demo.Order;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

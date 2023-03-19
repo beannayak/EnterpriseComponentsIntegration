@@ -1,4 +1,4 @@
-package com.rasal.workflow;
+package com.rasal;
 
 import lombok.Builder;
 import lombok.Getter;

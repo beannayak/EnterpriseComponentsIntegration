@@ -1,6 +1,6 @@
-package com.rasal.workflow.repository;
+package com.rasal.repository;
 
-import com.rasal.workflow.model.Order;
+import com.rasal.model.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

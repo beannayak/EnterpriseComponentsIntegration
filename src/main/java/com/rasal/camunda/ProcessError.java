@@ -1,4 +1,4 @@
-package com.rasal.workflow.camunda;
+package com.rasal.camunda;
 
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.JavaDelegate;

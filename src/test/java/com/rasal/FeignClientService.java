@@ -1,4 +1,4 @@
-package com.rasal.workflow;
+package com.rasal;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestHeader;

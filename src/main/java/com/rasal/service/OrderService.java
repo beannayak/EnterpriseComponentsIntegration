@@ -1,7 +1,7 @@
-package com.rasal.workflow.service;
+package com.rasal.service;
 
-import com.rasal.workflow.model.Order;
-import com.rasal.workflow.repository.OrderRepository;
+import com.rasal.repository.OrderRepository;
+import com.rasal.model.Order;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;

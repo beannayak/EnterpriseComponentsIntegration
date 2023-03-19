@@ -1,8 +1,8 @@
-package com.rasal.workflow.service;
+package com.rasal.service;
 
-import com.rasal.workflow.grpc.GreetingServiceGrpc;
-import com.rasal.workflow.grpc.OrderRequest;
-import com.rasal.workflow.grpc.OrderResponse;
+import com.rasal.grpc.GreetingServiceGrpc;
+import com.rasal.grpc.OrderRequest;
+import com.rasal.grpc.OrderResponse;
 import com.rasal.demo.Order;
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.server.service.GrpcService;
