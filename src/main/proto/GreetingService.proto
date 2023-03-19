@@ -1,0 +1,24 @@
+syntax="proto3";
+option java_multiple_files = true;
+package com.rasal.workflow.grpc;
+
+//Request Payload
+message OrderRequest {
+  string order_id = 1;
+  string customer_id = 2;
+  string supplier_id = 3;
+  string first_name = 4;
+  string last_name = 5;
+  int32 items = 6;
+  float price = 7;
+  float weight = 8;
+  bool automated_email = 9;
+}
+
+message OrderResponse {
+  bool successful = 1;
+}
+
+service GreetingService {
+  rpc kafkaHello(OrderRequest) returns (OrderResponse);
+}
