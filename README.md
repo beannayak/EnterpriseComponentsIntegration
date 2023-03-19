@@ -6,7 +6,7 @@
         2. Camunda
         3. JPA
         4. Service-to-service communication with GRPC
-        5. 
+        5. FeignClient, with circuit breaker pattern
 
 ## How to run this project?
 ### Start Confluent platform
